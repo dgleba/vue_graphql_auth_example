@@ -4,7 +4,7 @@
   "description": "### Description",
   "author": "James Klein",
   "scripts": {
-    "dev": "bin/webpack-dev-server"
+    "dev": "bin/webpack-dev-server --host=0.0.0.0"
   },
   "main": "application.js",
   "dependencies": {
@@ -48,7 +48,7 @@
     "webpack-dev-server": "^3.7.2"
   },
   "engines": {
-    "node": "12.4.0"
+    "node": "^12.4.0"
   },
   "license": "ISC",
   "repository": {
